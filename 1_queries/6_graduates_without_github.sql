@@ -1,0 +1,1 @@
+SELECT name, email, phone WHERE github IS NULL AND end_date IS NOT NULL;
