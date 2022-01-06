@@ -1,0 +1,1 @@
+SELECT count(students.*) AS student_count, cohorts.name AS cohort_name FROM students JOIN cohorts ON cohorts.id = cohort_id GROUP BY cohort_name HAVING count(students.*) > 17 ORDER BY student_count;
